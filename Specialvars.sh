@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "all args pass to the script: $@"
+echo "all args passed to the script: $*"
 echo "number of srgs pass to the script: $#"
 echo "first variable passed: $1"
 echo "Script name: $0"
@@ -14,4 +15,4 @@ echo "PID of te command running in the backround: $!"
 wait $! #script wait $! commnd complete#
 echo "line number: $LINENO"
 echo " previous command exit status:$?"
-echo "total time executed for this script: $SECONDS"
+echo "Total time executed for this script: $SECONDS"
