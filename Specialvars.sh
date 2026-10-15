@@ -14,4 +14,4 @@ echo "PID of te command running in the backround: $!"
 wait $! #script wait $! commnd complete#
 echo "line number: $LINENO"
 echo " previous command exit status:$?"
-echo "total time executed for this script:$seconds"
+echo "total time executed for this script: $SECONDS"
